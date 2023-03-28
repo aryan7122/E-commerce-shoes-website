@@ -263,11 +263,11 @@ section .shoes_bx section .title_shortby .select_sortby .shor_opt li:hover {
     background: black;
     color: white;
 }
-
-section .shoes_bx section .title_shortby .select_sortby .shor_opt .shor_opt_active {
+/* js class */
+section .shoes_bx section .title_shortby .select_sortby .shor_opt_active {
     height: 150px;
     opacity: 1;
-    z-index: 11111111111;
+    z-index:999999999999991;
 }
 
 section .shoes_bx .main_shoes_bx {
@@ -478,7 +478,7 @@ section aside .filter_bx  .shoes_check .input_p .input1 input{
 }
 section aside .filter_bx  .shoes_check .input_p .input1 i{
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 0%;
     transition: 1s linear;
 }
@@ -502,71 +502,72 @@ section aside .filter_bx .shoes_check .color_bx{
     flex-wrap: wrap;
 }
 section aside .filter_bx .shoes_check .color_bx h6{
-    border: 4px solid #fff;
+    border: 14px solid #fff;
     border-radius: 50%;
-    padding: 7px;
     margin: 3px;
     cursor: pointer;
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(2){
-    border: 4px solid #bdbdeb;
+    border: 14px solid #bdbdeb;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(3){
-    border: 4px solid #efc229;
+    border: 14px solid #efc229;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(4){
-    border: 4px solid #cab43a;
+    border: 14px solid #cab43a;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(5){
-    border: 4px solid #ff854e;
+    border: 14px solid #ff854e;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(6){
-    border: 4px solid #40854e;
+    border: 14px solid #40854e;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(7){
-    border: 4px solid #5686b6;
+    border: 14px solid #5686b6;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(8){
-    border: 4px solid #d93782;
+    border: 14px solid #d93782;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(9){
-    border: 4px solid #c04442;
+    border: 14px solid #c04442;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(10){
-    border: 4px solid #544b7a;
+    border: 14px solid #544b7a;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(11){
-    border: 4px solid #7a7b7f;
+    border: 14px solid #7a7b7f;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(12){
-    border: 4px solid #523d2a;
+    border: 14px solid #523d2a;
 
 }
 section aside .filter_bx .shoes_check .color_bx h6:nth-child(13){
-    border: 4px solid #000;
+    border: 14px solid #000;
 
 }
-section aside .filter_bx .shoes_check .color_bx h6:nth-child(14){
-    border-top:4px solid #40854e;
-    border-right:4px solid yellow;
-    border-bottom:4px solid red;
-    border-left:4px solid rgb(0, 229, 255);
-
+section aside .filter_bx .shoes_check .color_bx h5:nth-child(14){
+    border-radius: 50%;
+    border-top:14px solid #40854e;
+    border-right:14px solid yellow;
+    border-bottom:14px solid red;
+    border-left:14px solid rgb(0, 229, 255);
+    cursor: pointer;
 }
 section aside .filter_bx .shoes_check .size_bx{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 section aside .filter_bx .shoes_check .size_bx h6{
     border: 2px solid rgb(0, 0, 0, .8);

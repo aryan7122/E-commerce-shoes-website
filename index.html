@@ -64,8 +64,9 @@
                         </h6>
                         <i class="bi bi-node-minus-fill"></i>
                     </div>
-                    <li>Boots <i class="bi bi-toggle2-off"></i></li>
-                    <li>Loafer <i class="bi bi-toggle2-off"></i></li>
+                    <li>Boots <i id="boots" class="bi bi-toggle2-off" title="boots_filter_on"></i></li>
+                    <li>Loafer <i id="loafers" class="bi bi-toggle2-off" title="loafers_filter_on"></i></li>
+                    <!-- <li>Air Max <i id="AirMax" class="bi bi-toggle2-off" title="AirMax_filter_on"></i></li> -->
                 </div>
                 <!-- icons -->
                 <div class="shoes_check">
@@ -76,7 +77,9 @@
                         <i class="bi bi-node-minus-fill"></i>
                     </div>
                     <li>Aor Force 1 <i class="bi bi-toggle2-off"></i></li>
-                    <li>Air Max <i class="bi bi-toggle2-off"></i></li>
+                    <!-- <li>Air Max <i class="bi bi-toggle2-off"></i></li> -->
+                    <li>Air Max <i id="AirMax" class="bi bi-toggle2-off" title="AirMax_filter_on"></i></li>
+
                     <li>Zoom rival <i class="bi bi-toggle2-off"></i></li>
                     <li>Pegasus <i class="bi bi-toggle2-off"></i></li>
                     <li>Nike Dunk <i class="bi bi-toggle2-off"></i></li>
@@ -91,17 +94,17 @@
                     </div>
                     <div class="input_p">
                         <div class="input1">
-                            <input type="range" name="" id="" min="1" max="100">
-                            <i class="bi bi-pause-btn-fill"></i>
+                            <input type="range" name="" id="left_input" min="1" max="100">
+                            <i class="bi bi-pause-btn-fill" id="left_input_icon"></i>
                         </div>
                         <div class="input1">
-                            <input type="range" name="" id="" min="1" max="100">
-                            <i class="bi bi-pause-btn-fill"></i>
+                            <input type="range" name="" id="right_input" min="1" max="100">
+                            <i class="bi bi-pause-btn-fill" id="right_input_icon"></i>
                         </div>
                     </div>
                     <div class="input_price">
-                        <h6>0000</h6>
-                        <h6>0000</h6>
+                        <h6 id="price_left">0000</h6>
+                        <h6 id="price_right">0000</h6>
                     </div>
                 </div>
                 <!-- color -->
@@ -126,7 +129,7 @@
                         <h6 class="color"></h6>
                         <h6 class="color"></h6>
                         <h6 class="color"></h6>
-                        <h6 class="colors"></h6>
+                        <h5 class="colors"></h5>
                     </div>
                 </div>
                 <div class="shoes_check">
@@ -164,21 +167,21 @@
                 <div class="title_shortby">
                     <h4>Shoes</h4>
                     <div class="select_sortby">
-                        <button>
+                        <button id="sortby_btn">
                             <h5>Shory By</h5>
                             <i class="bi bi-chevron-down"></i>
                         </button>
-                        <div class="shor_opt">
-                            <li>Newest</li>
-                            <li>All Shoes</li>
-                            <li>Low</li>
-                            <li>High</li>
+                        <div class="shor_opt ">
+                            <li id="newest">Newest</li>
+                            <li id="all_shoes">All Shoes</li>
+                            <li id="low">Low</li>
+                            <li id="high">High</li>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="main_shoes_bx">
-                <a href="#" class="card">
+                <!-- <a href="#" class="card">
                     <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
                     <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
                     <p>Men's Shoes</p>
@@ -191,150 +194,7 @@
                         <h6>Sustainable Materials</h6>
                     </div>
                 </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-                <a href="#" class="card">
-                    <img src="img/Nike Air Force 1 Mid QS.webp" alt="">
-                    <h5 class="card_title">Nike Air Force 1 Mid QS</h5>
-                    <p>Men's Shoes</p>
-                    <div class="price">
-                        <h5>Rs 2799</h5>
-                        <h5>MRP: <del>RS 3699</del></h5>
-                    </div>
-                    <div class="color_tag">
-                        <h6>Color 1</h6>
-                        <h6>Sustainable Materials</h6>
-                    </div>
-                </a>
-
+                -->
             </div>
             <div class="pagination">
                 <a href="#"><i class="bi bi-chevron-left"></i></a>
