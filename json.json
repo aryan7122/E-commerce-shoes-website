@@ -210,7 +210,7 @@
         "Size8": 8,
         "Size9": 0,
         "Size10": 10,
-        "Size11.5": 11.5,
+        "Size81": 81,
         "Img": "img/Nike Air More Uptempo '96.webp",
         "Type": "Nike Dunk",
         "ColorTag": "sky-blue"
@@ -227,8 +227,8 @@
         "Size7": 7,
         "Size8": 8,
         "Size9": 9,
-        "Size10": 0,
-        "Size11.5": 0,
+        "Size10": 10,
+        "Size11": 11,
         "Img": "img/Nike Air Pegasus 83 Premium.webp",
         "Type": "Pegasus",
         "ColorTag": "gary-white"
@@ -246,7 +246,7 @@
         "Size8": 8,
         "Size9": 9,
         "Size10": 0,
-        "Size11.5": 11.5,
+        "Size11": 11,
         "Img": "img/Nike Air Zoom Pegasus 39 Shield.webp",
         "Type": "Zoom Rival",
         "ColorTag": "black"
@@ -264,7 +264,7 @@
         "Size8": 8,
         "Size9": 9,
         "Size10": 10,
-        "Size11.5": 11.5,
+        "Size18": 18,
         "Img": "img/Nike Blazer Low '77 Jumbo.webp",
         "Type": "Loafer",
         "ColorTag": "white"
@@ -318,7 +318,7 @@
         "Size8": 8,
         "Size9": 9,
         "Size10": 0,
-        "Size11.5": 11.5,
+        "Size17": 17,
         "Img": "img/Nike Metcon 8.webp",
         "Type": "Nike Dunk",
         "ColorTag": "green"
@@ -336,7 +336,7 @@
         "Size8": 0,
         "Size9": 0,
         "Size10": 10,
-        "Size11.5": 11.5,
+        "Size17": 17,
         "Img": "img/Nike Pegasus 39.webp",
         "Type": "Pegasus",
         "ColorTag": "orange"
@@ -354,7 +354,7 @@
         "Size8": 0,
         "Size9": 9,
         "Size10": 10,
-        "Size11.5": 11.5,
+        "Size16": 16,
         "Img": "img/Nike React Infinity Run Flyknit 3.webp",
         "Type": "Boots",
         "ColorTag": "white"
