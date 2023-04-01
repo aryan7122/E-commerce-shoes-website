@@ -48,7 +48,11 @@ header nav ul li a {
     color: rgb(0, 0, 0, .7);
     transition: .3s linear;
 }
-
+section aside {
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px; 
+}
 header nav ul li a:hover {
     color: #000;
 }
@@ -174,7 +178,7 @@ section aside,
 }
 
 section aside {
-    width: 18%;
+    width: 16%;
 }
 
 section .shoes_bx {
@@ -388,9 +392,9 @@ section .shoes_bx .pagination h6{
 }
 
 section aside {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    padding-top: 40px;
+    padding-top: 40px; */
 }
 section aside .filter_bx{
     width: 160px;
